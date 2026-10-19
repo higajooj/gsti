@@ -59,6 +59,7 @@ nav a.on small{color:#e8eefc}
 <a href="#aula-06">Aula 06<small>Riscos, segurança e métricas</small></a>
 <a href="#aula-07">Aula 07<small>COBIT: SLA e domínios</small></a>
 <a href="#aula-08">Aula 08<small>Gestão de Incidentes (COBIT)</small></a>
+<a href="#aula-09">Aula 09<small>Gestão de Problemas (COBIT)</small></a>
 </nav>
 <div class="wrap"><main>
 <section class="deck" id="aula-01">
@@ -4753,6 +4754,551 @@ nav a.on small{color:#e8eefc}
 <div class="card" style="--c:#f6f1fb"><h3><strong>PROBLEMAS</strong></h3>
 <p>Quando precisamos entender causa, recorrência e evitar novas ocorrências.</p></div>
 <div class="card" style="--c:#3a9162"><p><strong>INCIDENTE: restaurar | PROBLEMA: compreender e reduzir recorrência.</strong></p></div>
+</div>
+</section>
+</section>
+<section class="deck" id="aula-09">
+<h1 class="deck-title">Aula 09 — Gestão de Problemas (COBIT)</h1>
+<p class="deck-meta">Origem: AULA_09_GESTÃO_PROBLEMAS.pdf · 42 slides</p>
+<section class="slide" id="aula-09-s1">
+<header><span class="sn">Slide 1</span><h2><strong>COBIT 2019 — Gestão de Problemas</strong></h2></header>
+<div class="body">
+<p>DSS03 — Problemas | FACOM/UFMS — Prof. Anderson Lima</p>
+<div class="card" style="--c:#fcefef"><h3><strong>CASO-GUIA</strong></h3>
+<p>O E-mail Institucional da UFMS em Cloud cai repetidamente. A equipe restaura o serviço, mas a falha volta.</p></div>
+<div class="card" style="--c:#f6f1fb"><p><strong>OBJETIVO</strong></p>
+<p>Entender, de forma simples, como reconhecer tipos de problemas, investigar suas causas, controlar seus efeitos e reduzir novas ocorrências.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Pergunta central: por que a falha acontece — e o que podemos aprender com ela?</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s2">
+<header><span class="sn">Slide 2</span><h2><strong>Incidente × Problema</strong></h2></header>
+<div class="body">
+<p>A diferença que orienta toda a aula.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#edf6fd"><h3><strong>INCIDENTE — DSS02</strong></h3>
+<p>Como restaurar o serviço AGORA?</p>
+<p>Foco: reduzir impacto e normalizar.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#f6f1fb"><h3><strong>PROBLEMA — DSS03</strong></h3>
+<p>Por que isso aconteceu ou pode acontecer?</p>
+<p>Foco: causa, padrão, controle e prevenção.</p></div></div></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Um problema pode existir mesmo quando o serviço já voltou.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s3">
+<header><span class="sn">Slide 3</span><h2><strong>Pergunta 1 — o serviço voltou. Está resolvido?</strong></h2></header>
+<div class="body">
+<p>Pergunta norteadora para discussão com a turma</p>
+<div class="card" style="--c:#fdf6eb"><h3><strong>Se o e-mail volta em 10 minutos, mas cai todos os dias, podemos dizer que a situação está resolvida?</strong></h3>
+<p>Diferencie restauração do serviço e eliminação/redução da causa.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Discuta primeiro. A resposta comentada aparece no próximo slide.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s4">
+<header><span class="sn">Slide 4</span><h2><strong>Resposta 1 — voltou, mas o problema pode continuar</strong></h2></header>
+<div class="body">
+<p>Resposta comentada à pergunta anterior</p>
+<div class="card" style="--c:#eef8f2"><p><strong>RESPOSTA CURTA</strong></p>
+<p>Não. O incidente foi restaurado, mas a recorrência mostra que ainda existe algo a compreender.</p></div>
+<div class="row"><div class="col" style="flex:280 1 0"><div class="card" style="--c:#edf6fd"><p><strong>INCIDENTE</strong></p>
+<p>A urgência termina quando o serviço volta.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>PROBLEMA</strong></p>
+<p>A investigação continua para entender a causa ou condição.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>OBJETIVO</strong></p>
+<p>Reduzir a chance e/ou o impacto de novas ocorrências.</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>A resposta orienta a decisão, mas o contexto da organização continua importante.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s5">
+<header><span class="sn">Slide 5</span><h2><strong>O que é um problema?</strong></h2></header>
+<div class="body">
+<p>Uma definição leve.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#f6f1fb"><h3><strong>PROBLEMA</strong></h3>
+<p>Uma causa, ou potencial causa, de um ou mais incidentes.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#eef8f2"><p><strong>EM LINGUAGEM SIMPLES</strong></p>
+<p>É aquilo que precisamos compreender e controlar para que a mesma falha não continue nos surpreendendo.</p></div></div></div>
+<div class="card" style="--c:#fdf6eb"><p><strong>EXEMPLO</strong></p>
+<p>As quedas do e-mail são incidentes. A condição que provoca ou favorece essas quedas é o problema.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Problema não significa simplesmente “incidente mais grave”.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s6">
+<header><span class="sn">Slide 6</span><h2><strong>DSS03 — caminho didático da aula</strong></h2></header>
+<div class="body">
+<p>Uma sequência simples para organizar o raciocínio.</p>
+<div class="row"><div class="col" style="flex:218 1 0"><div class="card" style="--c:#edf6fd"><p><strong>1. IDENTIFICAR</strong></p>
+<p>há um problema?</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#eef8f2"><p><strong>2. CLASSIFICAR</strong></p>
+<p>que tipo?</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>3. PRIORIZAR</strong></p>
+<p>quanto importa?</p></div></div><div class="col" style="flex:218 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>4. INVESTIGAR</strong></p>
+<p>por que ocorre?</p></div></div></div>
+<div class="row"><div class="col" style="flex:218 1 0"><div class="card" style="--c:#edf6fd"><p><strong>5. CONTROLAR</strong></p>
+<p>como reduzir efeito?</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#eef8f2"><p><strong>6. CORRIGIR</strong></p>
+<p>o que mudar?</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>7. VALIDAR</strong></p>
+<p>funcionou?</p></div></div><div class="col" style="flex:218 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>8. APRENDER</strong></p>
+<p>o que guardar?</p></div></div></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>É uma organização didática das práticas; não um ciclo rígido obrigatório.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s7">
+<header><span class="sn">Slide 7</span><h2><strong>1. IDENTIFICAR — de onde um problema pode surgir?</strong></h2></header>
+<div class="body">
+<p>Quatro sinais simples, todos usando o E-mail Institucional como exemplo.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#edf6fd"><p><strong>RECORRÊNCIA</strong></p>
+<p>A mesma falha volta.</p>
+<p>Ex.: o e-mail fica indisponível três manhãs na mesma semana.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#fcefef"><p><strong>INCIDENTE GRAVE</strong></p>
+<p>Uma única falha teve grande impacto.</p>
+<p>Ex.: toda a UFMS ficou quatro horas sem e-mail.</p></div></div></div>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>TENDÊNCIA</strong></p>
+<p>Os dados mostram piora antes de uma falha maior.</p>
+<p>Ex.: a lentidão do e-mail aumenta a cada dia.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#eef8f2"><p><strong>RISCO / ANÁLISE PROATIVA</strong></p>
+<p>Percebemos uma condição perigosa antes do incidente.</p>
+<p>Ex.: armazenamento ou capacidade do serviço está próximo do limite.</p></div></div></div>
+<div class="card" style="--c:#2d6fad"><p><strong>Gestão de Problemas pode começar depois de falhas ou antes da próxima falha.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s8">
+<header><span class="sn">Slide 8</span><h2><strong>2. CLASSIFICAR — dois jeitos simples de classificar</strong></h2></header>
+<div class="body">
+<p>COBIT não exige uma lista universal; a organização cria uma taxonomia útil.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#edf6fd"><p><strong>A. PELA ORIGEM</strong></p>
+<p>Como o problema foi percebido?</p>
+<ul><li>Reativo</li><li>Proativo</li></ul></div></div><div class="col" style="flex:430 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>B. PELA NATUREZA</strong></p>
+<p>Em que área parece estar?</p>
+<ul><li>Tecnologia</li><li>Processo</li><li>Pessoas</li><li>Fornecedor</li><li>Capacidade/Desempenho</li><li>Segurança/Configuração</li></ul></div></div></div>
+<div class="card" style="--c:#2d6fad"><p><strong>Uma classificação simples ajuda a encaminhar e escolher como investigar.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s9">
+<header><span class="sn">Slide 9</span><h2><strong>Tipos de problema — REATIVO × PROATIVO</strong></h2></header>
+<div class="body">
+<p>Essa é uma classificação pela origem da investigação.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#fcefef"><p><strong>REATIVO</strong></p>
+<p>Começa DEPOIS de um incidente ou conjunto de incidentes.</p>
+<p>Ex.: e-mail caiu três vezes.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#eef8f2"><p><strong>PROATIVO</strong></p>
+<p>Começa ANTES de nova falha, por tendência, risco ou análise.</p>
+<p>Ex.: capacidade cresce e se aproxima do limite.</p></div></div></div>
+<div class="card" style="--c:#2d6fad"><p><strong>Reativo aprende com o que aconteceu. Proativo tenta agir antes da próxima falha.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s10">
+<header><span class="sn">Slide 10</span><h2><strong>Tipos de problema — pela NATUREZA</strong></h2></header>
+<div class="body">
+<p>Exemplos práticos usando o serviço de E-mail Institucional.</p>
+<div class="row"><div class="col" style="flex:302 1 0"><div class="card" style="--c:#edf6fd"><p><strong>TECNOLOGIA</strong></p>
+<p>Servidor/componente do serviço apresenta defeito ou erro de software.</p></div></div><div class="col" style="flex:302 1 0"><div class="card" style="--c:#eef8f2"><p><strong>CONFIGURAÇÃO</strong></p>
+<p>Parâmetro de sessão configurado incorretamente provoca quedas.</p></div></div><div class="col" style="flex:302 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>CAPACIDADE / DESEMPENHO</strong></p>
+<p>Pico de usuários ou armazenamento insuficiente deixa o e-mail lento.</p></div></div></div>
+<div class="row"><div class="col" style="flex:302 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>PROCESSO</strong></p>
+<p>Mudança é colocada em produção sem teste suficiente e gera falhas.</p></div></div><div class="col" style="flex:302 1 0"><div class="card" style="--c:#ecf8f8"><p><strong>PESSOAS / CONHECIMENTO</strong></p>
+<p>Equipe não conhece um procedimento crítico e configura o serviço de forma inadequada.</p></div></div><div class="col" style="flex:302 1 0"><div class="card" style="--c:#fcefef"><p><strong>FORNECEDOR / DEPENDÊNCIA</strong></p>
+<p>Provedor Cloud ou serviço externo de autenticação apresenta falha recorrente.</p></div></div></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>A classificação indica ONDE começar a olhar; a investigação descobre o que realmente está acontecendo.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s11">
+<header><span class="sn">Slide 11</span><h2><strong>Como usar a classificação na prática?</strong></h2></header>
+<div class="body">
+<p>Não tente adivinhar a causa. Use a categoria como ponto de partida para investigar.</p>
+<div class="row"><div class="col" style="flex:284 1 0"><div class="card" style="--c:#edf6fd" data-after="→"><p><strong>1. OBSERVE O SINTOMA</strong></p>
+<p>Ex.: o e-mail cai sempre depois de uma alteração.</p></div></div><div class="col" style="flex:284 1 0"><div class="card" style="--c:#fdf6eb" data-after="→"><p><strong>2. ESCOLHA UMA PISTA INICIAL</strong></p>
+<p>Pode ser CONFIGURAÇÃO ou PROCESSO.</p></div></div><div class="col" style="flex:284 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>3. INVESTIGUE</strong></p>
+<p>Compare mudanças, logs e testes para confirmar ou rejeitar a hipótese.</p></div></div></div>
+<div class="card" style="--c:#eef8f2"><p><strong>OUTRO EXEMPLO</strong></p>
+<p>Sintoma: e-mail fica lento sempre às 10h → pista inicial: CAPACIDADE/DESEMPENHO → investigação: verificar uso de CPU, memória, conexões e volume de mensagens nesse horário.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Classificação é uma pista para começar — não é a causa já descoberta.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s12">
+<header><span class="sn">Slide 12</span><h2><strong>Pergunta 2 — precisa esperar repetir?</strong></h2></header>
+<div class="body">
+<p>Pergunta norteadora para discussão com a turma</p>
+<div class="card" style="--c:#fdf6eb"><h3><strong>Um único incidente derrubou o e-mail de toda a universidade por quatro horas. É preciso esperar acontecer novamente para abrir um problema?</strong></h3>
+<p>Considere impacto, risco e causa ainda desconhecida.</p></div>
+<div class="card" style="--c:#dd8e3b"><p><strong>Discuta primeiro. A resposta comentada aparece no próximo slide.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s13">
+<header><span class="sn">Slide 13</span><h2><strong>Resposta 2 — não é preciso esperar</strong></h2></header>
+<div class="body">
+<p>Resposta comentada à pergunta anterior</p>
+<div class="card" style="--c:#eef8f2"><p><strong>RESPOSTA CURTA</strong></p>
+<p>Não. Um único incidente relevante pode justificar uma investigação de problema.</p></div>
+<div class="row"><div class="col" style="flex:280 1 0"><div class="card" style="--c:#edf6fd"><p><strong>IMPACTO</strong></p>
+<p>Quatro horas para toda a universidade é significativo.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>INCERTEZA</strong></p>
+<p>Se a causa não é conhecida, o risco permanece.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>DECISÃO</strong></p>
+<p>A organização pode abrir o problema mesmo sem recorrência.</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>A resposta orienta a decisão, mas o contexto da organização continua importante.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s14">
+<header><span class="sn">Slide 14</span><h2><strong>3. PRIORIZAR — quais problemas investigar primeiro?</strong></h2></header>
+<div class="body">
+<p>Problemas competem por tempo e recursos.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fcefef"><p><strong>IMPACTO</strong></p>
+<p>Qual seria a consequência de nova ocorrência?</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>FREQUÊNCIA / TENDÊNCIA</strong></p>
+<p>Acontece muito? Está piorando?</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>RISCO</strong></p>
+<p>Qual a chance e a consequência de repetir?</p></div></div></div>
+<div class="card" style="--c:#edf6fd"><p><strong>IDEIA</strong></p>
+<p>Prioridade de problema orienta onde concentrar investigação e esforço.</p></div>
+<div class="card" style="--c:#dd8e3b"><p><strong>Problema frequente não é automaticamente mais importante que problema de grande impacto.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s15">
+<header><span class="sn">Slide 15</span><h2><strong>Pergunta 3 — qual investigar primeiro?</strong></h2></header>
+<div class="body">
+<p>Pergunta norteadora para discussão com a turma</p>
+<div class="card" style="--c:#fdf6eb"><h3><strong>A) Uma falha pequena ocorre todos os dias. B) Uma falha muito grave ocorreu uma vez e a causa é desconhecida. Qual vem primeiro?</strong></h3>
+<p>Compare impacto, frequência e risco.</p></div>
+<div class="card" style="--c:#dd8e3b"><p><strong>Discuta primeiro. A resposta comentada aparece no próximo slide.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s16">
+<header><span class="sn">Slide 16</span><h2><strong>Resposta 3 — depende do risco combinado</strong></h2></header>
+<div class="body">
+<p>Resposta comentada à pergunta anterior</p>
+<div class="card" style="--c:#eef8f2"><p><strong>RESPOSTA CURTA</strong></p>
+<p>Não há uma regra automática. É preciso comparar consequência, repetição e risco futuro.</p></div>
+<div class="row"><div class="col" style="flex:280 1 0"><div class="card" style="--c:#edf6fd"><p><strong>A — FREQUENTE</strong></p>
+<p>Pode consumir tempo e indicar tendência.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>B — GRAVE</strong></p>
+<p>Pode justificar prioridade alta mesmo ocorrendo uma vez.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>DECISÃO</strong></p>
+<p>Use critérios claros e documente por que um problema veio primeiro.</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>A resposta orienta a decisão, mas o contexto da organização continua importante.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s17">
+<header><span class="sn">Slide 17</span><h2><strong>4. INVESTIGAR — o coração da Gestão de Problemas</strong></h2></header>
+<div class="body">
+<p>A investigação fica mais clara quando dividimos em quatro movimentos.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#edf6fd"><p><strong>1. REUNIR FATOS</strong></p>
+<p>O que realmente aconteceu?</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#eef8f2"><p><strong>2. PROCURAR PADRÕES</strong></p>
+<p>O que se repete ou coincide?</p></div></div></div>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>3. CRIAR HIPÓTESES</strong></p>
+<p>O que poderia explicar?</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>4. TESTAR</strong></p>
+<p>Que evidência confirma ou rejeita?</p></div></div></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Fato → padrão → hipótese → teste. Evite começar pela conclusão.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s18">
+<header><span class="sn">Slide 18</span><h2><strong>4. INVESTIGAR — 1) reunir fatos</strong></h2></header>
+<div class="body">
+<p>Antes de explicar, descreva.</p>
+<div class="row"><div class="col" style="flex:298 1 0"><div class="card" style="--c:#edf6fd"><p><strong>QUANDO?</strong></p>
+<p>Quando começou e terminou?</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#eef8f2"><p><strong>QUEM?</strong></p>
+<p>Quem foi afetado?</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>O QUÊ?</strong></p>
+<p>Qual função falhou?</p></div></div></div>
+<div class="row"><div class="col" style="flex:298 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>ONDE?</strong></p>
+<p>Qual componente/serviço?</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#ecf8f8"><p><strong>MUDANÇAS?</strong></p>
+<p>O que mudou antes?</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#fcefef"><p><strong>EVIDÊNCIAS?</strong></p>
+<p>Logs, alertas, tickets?</p></div></div></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>A primeira tarefa é separar fatos de opiniões.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s19">
+<header><span class="sn">Slide 19</span><h2><strong>4. INVESTIGAR — 2) procurar padrões</strong></h2></header>
+<div class="body">
+<p>Compare ocorrências em vez de olhar cada uma isoladamente.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>TEMPO</strong></p>
+<p>As falhas acontecem no mesmo horário?</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>EVENTO</strong></p>
+<p>Acontecem depois da mesma mudança ou rotina?</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>COMPONENTE</strong></p>
+<p>Usam a mesma dependência ou fornecedor?</p></div></div></div>
+<div class="card" style="--c:#f6f1fb"><p><strong>EXEMPLO</strong></p>
+<p>As três quedas ocorreram logo após a renovação de sessões do serviço.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Padrão não prova causa, mas orienta a próxima hipótese.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s20">
+<header><span class="sn">Slide 20</span><h2><strong>4. INVESTIGAR — 3) criar hipóteses</strong></h2></header>
+<div class="body">
+<p>Uma hipótese é uma explicação que ainda precisa ser testada.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>HIPÓTESE A</strong></p>
+<p>Capacidade insuficiente.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>HIPÓTESE B</strong></p>
+<p>Parâmetro de sessão inadequado.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fcefef"><p><strong>HIPÓTESE C</strong></p>
+<p>Falha no provedor Cloud.</p></div></div></div>
+<div class="card" style="--c:#edf6fd"><p><strong>REGRA SIMPLES</strong></p>
+<p>Não escolha a hipótese que “parece melhor”. Procure evidência capaz de diferenciá-las.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Hipótese boa pode ser confirmada ou rejeitada por evidência.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s21">
+<header><span class="sn">Slide 21</span><h2><strong>4. INVESTIGAR — 4) testar hipóteses</strong></h2></header>
+<div class="body">
+<p>Pergunte: o que eu esperaria observar se esta hipótese fosse verdadeira?</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>SE FOR CAPACIDADE...</strong></p>
+<p>Deveríamos ver uso elevado ou saturação próximo das quedas.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>SE FOR CONFIGURAÇÃO...</strong></p>
+<p>Deveríamos encontrar relação entre parâmetro, horário e erro.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fcefef"><p><strong>SE FOR PROVEDOR...</strong></p>
+<p>Deveríamos encontrar alertas ou evidências externas compatíveis.</p></div></div></div>
+<div class="card" style="--c:#eef8f2"><p><strong>RESULTADO</strong></p>
+<p>Hipóteses são fortalecidas, enfraquecidas ou descartadas.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Investigar é reduzir incerteza com evidência.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s22">
+<header><span class="sn">Slide 22</span><h2><strong>Investigação — uma linha cronológica mais simples</strong></h2></header>
+<div class="body">
+<p>A cronologia responde: O que aconteceu ANTES, DURANTE e DEPOIS da falha?</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>ANTES DA FALHA</strong></p>
+<p>08:30 — alteração de configuração 08:35 — serviço ainda normal</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fcefef"><p><strong>DURANTE A FALHA</strong></p>
+<p>08:40 — erros começam 08:45 — e-mail indisponível 08:47 — alerta disparado</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>DEPOIS DA FALHA</strong></p>
+<p>09:05 — serviço restaurado 09:10 — erros cessam</p></div></div></div>
+<div class="card" style="--c:#fdf6eb"><p><strong>O QUE INVESTIGAR?</strong></p>
+<p>A alteração das 08:30 pode ter relação com a falha das 08:40? Compare logs e comportamento antes/depois.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Cronologia mostra sequência; ela sugere relações, mas não prova causa.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s23">
+<header><span class="sn">Slide 23</span><h2><strong>Investigação — compare ocorrências</strong></h2></header>
+<div class="body">
+<p>Uma única linha do tempo pode enganar; repetição fortalece ou enfraquece hipóteses.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>SEGUNDA</strong></p>
+<p>Mudança 08:30 → falha 08:40</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>TERÇA</strong></p>
+<p>Mesma rotina 08:30 → falha 08:41</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>QUARTA</strong></p>
+<p>Rotina suspensa → nenhuma falha</p></div></div></div>
+<div class="card" style="--c:#f6f1fb"><p><strong>INTERPRETAÇÃO</strong></p>
+<p>Agora existe evidência mais forte de associação. Ainda devemos testar antes de concluir.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Comparar ocorrências é mais útil do que olhar um evento isolado.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s24">
+<header><span class="sn">Slide 24</span><h2><strong>Ferramenta simples — 5 Porquês</strong></h2></header>
+<div class="body">
+<p>Use para aprofundar, sem transformar a técnica em receita.</p>
+<div class="card" style="--c:#edf6fd"><p><strong>1. Por que o e-mail caiu?</strong></p>
+<p>Conexões expiraram.</p></div>
+<div class="card" style="--c:#eef8f2"><p><strong>2. Por que expiraram?</strong></p>
+<p>Parâmetro estava inadequado.</p></div>
+<div class="card" style="--c:#fdf6eb"><p><strong>3. Por que ficou inadequado?</strong></p>
+<p>Mudança alterou a configuração.</p></div>
+<div class="card" style="--c:#f6f1fb"><p><strong>4. Por que não percebemos?</strong></p>
+<p>Teste não cobriu esse cenário.</p></div>
+<div class="card" style="--c:#ecf8f8"><p><strong>5. Por que o teste não cobriu?</strong></p>
+<p>Critério de validação precisava melhorar.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>O objetivo é aprofundar a explicação, não encontrar um culpado.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s25">
+<header><span class="sn">Slide 25</span><h2><strong>Ferramenta simples — Ishikawa (causa e efeito)</strong></h2></header>
+<div class="body">
+<p>Como usar: escreva o PROBLEMA e pergunte “o que pode estar causando isso?” em diferentes grupos.</p>
+<div class="row"><div class="col" style="flex:263 1 0"><div class="card" style="--c:#edf6fd" data-after="→"><p><strong>TECNOLOGIA</strong></p>
+<p>Erro no software?</p></div></div><div class="col" style="flex:262 1 0"><div class="card" style="--c:#fdf6eb" data-after="→"><p><strong>PROCESSO</strong></p>
+<p>Mudança sem teste?</p></div></div><div class="col" style="flex:262 1 0"><div class="card" style="--c:#ecf8f8"><p><strong>FORNECEDOR</strong></p>
+<p>Falha no Cloud?</p></div></div></div>
+<div class="card" style="--c:#fcefef"><p><strong>EFEITO / PROBLEMA</strong></p>
+<p>E-mail Institucional cai repetidamente</p></div>
+<div class="row"><div class="col" style="flex:263 1 0"><div class="card" style="--c:#eef8f2" data-after="→"><p><strong>CONFIGURAÇÃO</strong></p>
+<p>Parâmetro incorreto?</p></div></div><div class="col" style="flex:262 1 0"><div class="card" style="--c:#f6f1fb" data-after="→"><p><strong>PESSOAS</strong></p>
+<p>Falta de conhecimento?</p></div></div><div class="col" style="flex:262 1 0"><div class="card" style="--c:#fcefef"><p><strong>CAPACIDADE</strong></p>
+<p>Recursos insuficientes?</p></div></div></div>
+<div class="card" style="--c:#edf6fd"><p><strong>COMO FUNCIONA?</strong></p>
+<p>1) Coloque o problema no centro.  2) Liste possíveis causas por categoria.  3) Colete evidências.  4) Elimine hipóteses sem suporte e aprofunde as mais prováveis.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Ishikawa organiza POSSÍVEIS causas; ele não prova sozinho qual é a causa real.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s26">
+<header><span class="sn">Slide 26</span><h2><strong>Pergunta 4 — causa ou culpado?</strong></h2></header>
+<div class="body">
+<p>Pergunta norteadora para discussão com a turma</p>
+<div class="card" style="--c:#fdf6eb"><h3><strong>Se uma configuração incorreta foi feita por um técnico, podemos dizer que “o técnico é a causa raiz”?</strong></h3>
+<p>Que condições permitiram que o erro chegasse à produção?</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Discuta primeiro. A resposta comentada aparece no próximo slide.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s27">
+<header><span class="sn">Slide 27</span><h2><strong>Resposta 4 — investigar sistema, não procurar culpado</strong></h2></header>
+<div class="body">
+<p>Resposta comentada à pergunta anterior</p>
+<div class="card" style="--c:#eef8f2"><p><strong>RESPOSTA CURTA</strong></p>
+<p>Não é suficiente apontar a pessoa. A investigação deve perguntar por que o processo permitiu que o erro produzisse impacto.</p></div>
+<div class="row"><div class="col" style="flex:280 1 0"><div class="card" style="--c:#edf6fd"><p><strong>TÉCNICO</strong></p>
+<p>Pode ter ocorrido um erro humano.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>PROCESSO</strong></p>
+<p>Faltou revisão, teste ou barreira de validação?</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>APRENDIZADO</strong></p>
+<p>Melhorar o sistema reduz a chance de repetição por qualquer pessoa.</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>A resposta orienta a decisão, mas o contexto da organização continua importante.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s28">
+<header><span class="sn">Slide 28</span><h2><strong>5. CONTROLAR — enquanto a causa não é eliminada</strong></h2></header>
+<div class="body">
+<p>Reduzir o impacto também faz parte da Gestão de Problemas.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>WORKAROUND</strong></p>
+<p>Contorno conhecido para reduzir/restaurar rapidamente quando a falha reaparece.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>ERRO CONHECIDO</strong></p>
+<p>Problema analisado e documentado com informação útil sobre causa/condição e/ou workaround.</p></div></div></div>
+<div class="card" style="--c:#eef8f2"><p><strong>EFEITO</strong></p>
+<p>A equipe de Incidentes passa a responder mais rápido enquanto a correção definitiva é preparada.</p></div>
+<div class="card" style="--c:#2b8f95"><p><strong>Problemas devolvem conhecimento para Incidentes.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s29">
+<header><span class="sn">Slide 29</span><h2><strong>Workaround × correção definitiva</strong></h2></header>
+<div class="body">
+<p>Os dois têm papéis diferentes.</p>
+<div class="row"><div class="col" style="flex:428 1 0"><div class="card" style="--c:#fdf6eb"><h3><strong>WORKAROUND</strong></h3>
+<p>Reduz o impacto agora. A causa pode continuar existindo.</p></div></div><div class="col" style="flex:428 1 0"><div class="card" style="--c:#eef8f2"><h3><strong>CORREÇÃO</strong></h3>
+<p>Altera a condição que provoca ou favorece a falha. Busca resultado sustentável.</p></div></div></div>
+<div class="card" style="--c:#2b8f95"><p><strong>Contornar é útil; corrigir é outra etapa.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s30">
+<header><span class="sn">Slide 30</span><h2><strong>6. CORRIGIR — o que precisa mudar?</strong></h2></header>
+<div class="body">
+<p>A solução pode envolver mais do que tecnologia.</p>
+<div class="row"><div class="col" style="flex:298 1 0"><div class="card" style="--c:#edf6fd"><p><strong>TECNOLOGIA</strong></p>
+<p>ajustar componente</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#eef8f2"><p><strong>CONFIGURAÇÃO</strong></p>
+<p>corrigir parâmetro</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>PROCESSO</strong></p>
+<p>melhorar teste/revisão</p></div></div></div>
+<div class="row"><div class="col" style="flex:298 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>PESSOAS</strong></p>
+<p>treinar/comunicar</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#ecf8f8"><p><strong>FORNECEDOR</strong></p>
+<p>ajustar contrato/serviço</p></div></div><div class="col" style="flex:298 1 0"><div class="card" style="--c:#fcefef"><p><strong>MONITORAMENTO</strong></p>
+<p>detectar antes</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>Uma causa técnica pode revelar também uma oportunidade de melhoria de processo.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s31">
+<header><span class="sn">Slide 31</span><h2><strong>Pergunta 5 — corrigir imediatamente?</strong></h2></header>
+<div class="body">
+<p>Pergunta norteadora para discussão com a turma</p>
+<div class="card" style="--c:#fdf6eb"><h3><strong>A equipe acredita ter encontrado a causa. Deve alterar o ambiente de produção imediatamente?</strong></h3>
+<p>O que pode acontecer se a hipótese estiver errada ou a correção não for testada?</p></div>
+<div class="card" style="--c:#3a9162"><p><strong>Discuta primeiro. A resposta comentada aparece no próximo slide.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s32">
+<header><span class="sn">Slide 32</span><h2><strong>Resposta 5 — primeiro valide a correção</strong></h2></header>
+<div class="body">
+<p>Resposta comentada à pergunta anterior</p>
+<div class="card" style="--c:#eef8f2"><p><strong>RESPOSTA CURTA</strong></p>
+<p>Não. Uma correção mal planejada pode criar novos incidentes.</p></div>
+<div class="row"><div class="col" style="flex:280 1 0"><div class="card" style="--c:#edf6fd"><p><strong>TESTAR</strong></p>
+<p>Verificar se a mudança realmente atua sobre a causa.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>CONTROLAR</strong></p>
+<p>Avaliar riscos e aplicar de forma controlada.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>OBSERVAR</strong></p>
+<p>Depois da implantação, confirmar se a recorrência diminuiu.</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>A resposta orienta a decisão, mas o contexto da organização continua importante.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s33">
+<header><span class="sn">Slide 33</span><h2><strong>7. VALIDAR — como saber se funcionou?</strong></h2></header>
+<div class="body">
+<p>Não basta implementar a correção.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fcefef"><p><strong>ANTES</strong></p>
+<p>3 quedas em 3 dias.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>AÇÃO</strong></p>
+<p>Parâmetro corrigido + validação de mudança melhorada.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>DEPOIS</strong></p>
+<p>Nenhuma nova queda no período observado.</p></div></div></div>
+<div class="card" style="--c:#f6f1fb"><p><strong>PERGUNTA</strong></p>
+<p>A frequência, o impacto ou o risco realmente diminuíram?</p></div>
+<div class="card" style="--c:#2d6fad"><p><strong>Resultado observado é mais importante que “correção implantada”.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s34">
+<header><span class="sn">Slide 34</span><h2><strong>8. APRENDER — o problema deixa conhecimento</strong></h2></header>
+<div class="body">
+<p>O valor não termina no fechamento.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>DOCUMENTAR</strong></p>
+<p>Causa/condição • evidências • workaround • correção • resultado.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>COMPARTILHAR</strong></p>
+<p>Service Desk e equipes técnicas passam a reconhecer o padrão.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>PREVENIR</strong></p>
+<p>Conhecimento pode evitar ou acelerar futuros incidentes.</p></div></div></div>
+<div class="card" style="--c:#2d6fad"><p><strong>Gestão de Problemas transforma falha em aprendizado organizacional.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s35">
+<header><span class="sn">Slide 35</span><h2><strong>Caso completo — 1) identificar e classificar</strong></h2></header>
+<div class="body">
+<p>E-mail Institucional em Cloud.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fcefef"><p><strong>SINAL</strong></p>
+<p>Três quedas semelhantes em três dias.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>ORIGEM</strong></p>
+<p>Problema REATIVO: surgiu após incidentes.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>NATUREZA INICIAL</strong></p>
+<p>Possível configuração/processo.</p></div></div></div>
+<div class="card" style="--c:#fdf6eb"><p><strong>PRIORIDADE</strong></p>
+<p>Alta: serviço institucional + recorrência + grande impacto potencial.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Classificação inicial orienta a investigação; não encerra a análise.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s36">
+<header><span class="sn">Slide 36</span><h2><strong>Caso completo — 2) investigar</strong></h2></header>
+<div class="body">
+<p>Fato → padrão → hipótese → teste.</p>
+<div class="row"><div class="col" style="flex:212 1 0"><div class="card" style="--c:#edf6fd"><p><strong>FATOS</strong></p>
+<p>Quedas após renovação de sessões.</p></div></div><div class="col" style="flex:212 1 0"><div class="card" style="--c:#eef8f2"><p><strong>PADRÃO</strong></p>
+<p>Ocorrências próximas ao mesmo evento.</p></div></div><div class="col" style="flex:212 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>HIPÓTESE</strong></p>
+<p>Parâmetro de sessão inadequado.</p></div></div><div class="col" style="flex:212 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>TESTE</strong></p>
+<p>Logs e ambiente de teste reproduzem a falha.</p></div></div></div>
+<div class="card" style="--c:#ecf8f8"><p><strong>CONCLUSÃO</strong></p>
+<p>A evidência sustenta a hipótese; agora podemos planejar a correção.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>A conclusão vem depois da evidência.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s37">
+<header><span class="sn">Slide 37</span><h2><strong>Caso completo — 3) controlar, corrigir e validar</strong></h2></header>
+<div class="body">
+<p>Da descoberta ao resultado.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>CONTROLAR</strong></p>
+<p>Workaround documentado para restauração rápida.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>CORRIGIR</strong></p>
+<p>Parâmetro ajustado + processo de teste reforçado.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>VALIDAR</strong></p>
+<p>Acompanhar novas ocorrências e métricas.</p></div></div></div>
+<div class="card" style="--c:#f6f1fb"><p><strong>APRENDER</strong></p>
+<p>Atualizar base de conhecimento e orientar equipes.</p></div>
+<div class="card" style="--c:#3a9162"><p><strong>Tecnologia + processo + conhecimento.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s38">
+<header><span class="sn">Slide 38</span><h2><strong>Pergunta 6 — qual foi a diferença?</strong></h2></header>
+<div class="body">
+<p>Pergunta norteadora para discussão com a turma</p>
+<div class="card" style="--c:#fdf6eb"><h3><strong>Qual foi a maior diferença entre restaurar as três quedas e investigar o problema por trás delas?</strong></h3>
+<p>Compare urgência, profundidade e objetivo.</p></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Discuta primeiro. A resposta comentada aparece no próximo slide.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s39">
+<header><span class="sn">Slide 39</span><h2><strong>Resposta 6 — restaurar não é o mesmo que prevenir</strong></h2></header>
+<div class="body">
+<p>Resposta comentada à pergunta anterior</p>
+<div class="card" style="--c:#eef8f2"><p><strong>RESPOSTA CURTA</strong></p>
+<p>Incidentes recuperaram o serviço; Gestão de Problemas transformou as ocorrências em aprendizado e ação sobre a causa.</p></div>
+<div class="row"><div class="col" style="flex:280 1 0"><div class="card" style="--c:#edf6fd"><p><strong>INCIDENTES</strong></p>
+<p>Foco no retorno rápido.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>PROBLEMA</strong></p>
+<p>Foco em entender padrões e causas.</p></div></div><div class="col" style="flex:280 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>RESULTADO</strong></p>
+<p>Workaround, correção e conhecimento reduzem recorrência.</p></div></div></div>
+<div class="card" style="--c:#3a9162"><p><strong>A resposta orienta a decisão, mas o contexto da organização continua importante.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s40">
+<header><span class="sn">Slide 40</span><h2><strong>DSS02 + DSS03 — como Incidentes e Problemas trabalham juntos?</strong></h2></header>
+<div class="body">
+<p>Pense como uma conversa contínua entre duas equipes/processos.</p>
+<div class="row"><div class="col" style="flex:284 1 0"><div class="card" style="--c:#edf6fd" data-after="→"><p><strong>1. INCIDENTE ACONTECE — DSS02</strong></p>
+<p>E-mail cai. A equipe registra, prioriza e restaura o serviço.</p></div></div><div class="col" style="flex:284 1 0"><div class="card" style="--c:#fdf6eb" data-after="→"><p><strong>2. DADOS VÃO PARA DSS03</strong></p>
+<p>Tickets mostram horários, sintomas, impacto e repetição.</p></div></div><div class="col" style="flex:284 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>3. PROBLEMA É INVESTIGADO — DSS03</strong></p>
+<p>Descobre padrão, causa, workaround e possível correção.</p></div></div></div>
+<div class="row"><div class="col" style="flex:399 1 0"><div class="card" style="--c:#eef8f2"><p><strong>4. CONHECIMENTO VOLTA PARA DSS02</strong></p>
+<p>Se o incidente acontecer novamente, a equipe já conhece o erro e o workaround → restaura mais rápido.</p></div></div><div class="col" style="flex:399 1 0"><div class="card" style="--c:#ecf8f8"><p><strong>5. CORREÇÃO REDUZ NOVOS INCIDENTES</strong></p>
+<p>Quando a causa é tratada, a frequência ou o impacto das novas falhas deve diminuir.</p></div></div></div>
+<h3><strong>↔</strong></h3>
+<div class="card" style="--c:#7c5fa8"><p><strong>DSS02 apaga o incêndio; DSS03 investiga por que ele começou e ajuda a evitar o próximo.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s41">
+<header><span class="sn">Slide 41</span><h2><strong>Mapa mental — Gestão de Problemas</strong></h2></header>
+<div class="body">
+<p>Uma pergunta simples em cada fase.</p>
+<div class="row"><div class="col" style="flex:218 1 0"><div class="card" style="--c:#edf6fd"><p><strong>IDENTIFICAR</strong></p>
+<p>“Há um problema?”</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#eef8f2"><p><strong>CLASSIFICAR</strong></p>
+<p>“Que tipo?”</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>PRIORIZAR</strong></p>
+<p>“Quanto importa?”</p></div></div><div class="col" style="flex:218 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>INVESTIGAR</strong></p>
+<p>“Por que ocorre?”</p></div></div></div>
+<div class="row"><div class="col" style="flex:218 1 0"><div class="card" style="--c:#edf6fd"><p><strong>CONTROLAR</strong></p>
+<p>“Como reduzir efeito?”</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#eef8f2"><p><strong>CORRIGIR</strong></p>
+<p>“O que mudar?”</p></div></div><div class="col" style="flex:217 1 0"><div class="card" style="--c:#fdf6eb"><p><strong>VALIDAR</strong></p>
+<p>“Funcionou?”</p></div></div><div class="col" style="flex:218 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>APRENDER</strong></p>
+<p>“O que guardar?”</p></div></div></div>
+<div class="card" style="--c:#7c5fa8"><p><strong>Perguntas simples ajudam a organizar uma investigação complexa.</strong></p></div>
+</div>
+</section>
+<section class="slide" id="aula-09-s42">
+<header><span class="sn">Slide 42</span><h2><strong>Encerramento — três ideias para guardar</strong></h2></header>
+<div class="body">
+<p>Gestão de Problemas em linguagem simples.</p>
+<div class="row"><div class="col" style="flex:270 1 0"><div class="card" style="--c:#edf6fd"><p><strong>1. CLASSIFICAR AJUDA A COMEÇAR</strong></p>
+<p>Reativo/proativo e natureza do problema organizam o trabalho.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#f6f1fb"><p><strong>2. INVESTIGAR É TESTAR</strong></p>
+<p>Fato → padrão → hipótese → evidência. Não é procurar culpado.</p></div></div><div class="col" style="flex:270 1 0"><div class="card" style="--c:#eef8f2"><p><strong>3. APRENDER É O RESULTADO</strong></p>
+<p>Workaround, correção e conhecimento devem reduzir futuras surpresas.</p></div></div></div>
+<div class="card" style="--c:#fdf6eb"><p><strong>FRASE FINAL</strong></p>
+<p>INCIDENTE pergunta “como voltar?” | PROBLEMA pergunta “por que acontece e como reduzir a repetição?”</p></div>
+<div class="card" style="--c:#3a9162"><p><strong>DSS03: compreender → controlar → corrigir → validar → aprender.</strong></p></div>
 </div>
 </section>
 </section>
